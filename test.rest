@@ -2,6 +2,6 @@ GET http://localhost:9000/api/users
 
 ####
 
-GET http://localhost:9000/api/users/d7feS
+GET http://localhost:9000/api/users/buidz
 
 ####
