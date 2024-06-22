@@ -2,6 +2,28 @@ GET http://localhost:9000/api/users
 
 ####
 
-GET http://localhost:9000/api/users/buidz
+GET http://localhost:9000/api/users/xxnll
 
 ####
+
+POST http://localhost:9000/api/users
+Content-Type: application/json
+
+{
+  "name": "Alex Handley",
+  "bio": "steelex"
+}
+
+####
+
+DELETE http://localhost:9000/api/users/xxnll
+
+####
+
+PUT http://localhost:9000/api/users/xxnll
+Content-Type: application/json
+
+{
+  "name": "Alex Roy Handley",
+  "bio": "steelex"
+}
